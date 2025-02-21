@@ -1,0 +1,11 @@
+TextureRect
+StaticBody2D
+RigidBody2D
+Sprite2D
+CollisionShape2D
+Node2D
+Timer
+ColorRect
+Label
+CanvasLayer
+Node

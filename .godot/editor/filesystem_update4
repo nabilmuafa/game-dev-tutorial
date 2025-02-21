@@ -1,5 +1,8 @@
 res://default_env.tres
+res://scenes/Level2.tscn
 res://scenes/MainLevel.tscn
-res://scenes/PlatformBlue.gd
-res://scenes/StonePlatform.tscn
-res://scenes/BlueShip.tscn
+res://scenes/GreenShip.tscn
+res://scenes/MovablePlatform.gd
+res://scenes/MinecraftDirt.tscn
+res://scenes/ObjectiveArea.gd
+res://scenes/ObjectiveArea2.gd

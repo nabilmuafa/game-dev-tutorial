@@ -30,4 +30,28 @@ script = ExtResource("4")
 position = Vector2(70.625, 40)
 shape = SubResource("1")
 
+[node name="WinScreen" type="CanvasLayer" parent="."]
+visible = false
+offset = Vector2(1.755, 0)
+transform = Transform2D(1, 0, 0, 1, 1.755, 0)
+
+[node name="ColorRect" type="ColorRect" parent="WinScreen"]
+offset_left = 311.245
+offset_top = 172.0
+offset_right = 892.245
+offset_bottom = 467.0
+color = Color(0.477416, 1, 0.711389, 1)
+
+[node name="Label" type="Label" parent="WinScreen"]
+offset_left = 446.245
+offset_top = 266.0
+offset_right = 776.245
+offset_bottom = 373.0
+theme_override_font_sizes/font_size = 78
+text = "You Win!"
+
+[node name="Timer" type="Timer" parent="WinScreen"]
+wait_time = 2.0
+one_shot = true
+
 [connection signal="body_entered" from="ObjectiveArea" to="ObjectiveArea" method="_on_ObjectiveArea_body_entered"]
